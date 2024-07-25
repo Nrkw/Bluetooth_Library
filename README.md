@@ -25,7 +25,7 @@ Windows向けの、C++言語で実装されたBluetoothライブラリです。
  ```
 メモ帳で開いたcompile.batで、以下のように記述してください。
 ```bat:メモ帳
-  .\MinGW13.1.0\bin\g++ main.cpp -o main -lbluetooth -lws2_32 -lole32
+  .\MinGW13.1.0\bin\g++ main.cpp -o main -L.\bluetooth -lbluetooth -lws2_32 -lole32
 ```
 この`.\MinGW13.1.0`は適宜自分で解凍したMinGWのフォルダ名に合わせてください。
 main.cppは自分の作りたいファイル名にしてください。
